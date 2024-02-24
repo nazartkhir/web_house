@@ -1,0 +1,863 @@
+/* General css */
+
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: "Lexend";
+}
+
+/* Header css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 100px;
+    margin-top: 16px;
+}
+
+.logo-div {
+    display: flex;
+    align-items: center;
+    margin-bottom:8px;
+}
+
+.logo {
+    width: 36px; 
+    height: 36px; 
+    display: block;
+    margin-right: 8px;
+}
+
+.logo-text {
+    color: #1B1C57;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.nav-button {
+    margin-left: 20px;
+    border: 1px solid#ffffff88;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 32px;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)),
+linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+}
+
+.nav-link {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-decoration: none;
+}
+
+.dropdown-img {
+    padding-left: 4px;
+}
+
+.nav-signup-button {
+    margin-left: 48px;
+    background: #D1FAE5;
+    border: 0px;
+    padding: 12px 24px;
+    border-radius: 32px;
+    color: #047857;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 32px;
+    text-align: center;
+}
+
+.signup-link {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    text-decoration: none;
+    color: #047857;
+}
+
+.background-img {
+    position: absolute;
+    left: -16px;
+    top: -16px;
+    z-index: -1;
+}
+
+/* Hero css */
+
+.hero-section {
+    display: flex;
+    justify-content: start;
+}
+
+.hero-1 {
+    width: 30vw;
+}
+
+.hero-text {
+    margin-top: 48px;
+    margin-left: 120px;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.hero-title {
+    color: #1B1C57;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0.5px;
+    margin-bottom: 32px;
+}
+
+.special {
+    font-family: sans-serif;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #1B1C57;;
+    text-shadow: none;
+}
+
+.default-text {
+    color: #6e7082;
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 250;
+    line-height: 28px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.search-input {
+    width: 70%;
+    padding: 4px 4px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 1px solid #d0d2e1;
+    border-radius: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.location {
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.input {
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.hero-img {
+    position: absolute;
+    right:0vw;
+    top: 0px;
+    z-index: -1;
+    width: auto;
+    height: 95vh;
+}
+
+.search-button {
+    background: #10B981;
+    border: 0px;
+    padding: 12px 20px;
+    border-radius: 32px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 32px;
+    text-align: center;
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+}
+
+.search-img {
+    margin-left: 12px;
+}
+
+.hero-2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.partnerships-img {
+    width: 400px;
+    padding-bottom: 32px;
+}
+
+.hero-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    flex-basis: 50%;
+}
+
+.hero-bg {
+    margin-left: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-island {
+    margin-left: 16px;
+    background-color: white;
+    width: fit-content;
+    padding: 24px 24px;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.island-comp {
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.island-title {
+    margin: 0px;
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #1B1C57;
+}
+
+.island-text {
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    opacity: 0.7;
+    color: #68799F;
+}
+
+
+/* Featured section css */
+
+.featured-section {
+    margin-top: 160px;
+    margin-left: 120px;
+}
+
+.feat-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line {
+    width: auto;
+    height: 1px;
+    margin-right: 8px;
+}
+
+.line-comp {
+    display: flex;
+    align-items: center;
+}
+
+.subtitle {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    color: #F59E0B;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #1B1C57;
+    margin:0px;
+    margin-left: 40px;
+    margin-top: 12px;
+    
+}
+
+.buttons-1 {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+}
+
+.feat-img {
+    margin-right: 8px;
+    margin-bottom: 2px;
+}
+
+.feat-button-1 {
+    background: #D1FAE5;
+    border: 0px;
+    padding: 12px 24px;
+    border-radius: 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 32px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-right: 32px;
+}
+
+.feat-link-1 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #10B981;
+    text-decoration: none;
+}
+
+.feat-button-2 {
+    border: 1px solid #E0E3EB;
+    background-color: transparent;
+    padding: 12px 24px;
+    border-radius: 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    margin-right: 32px;
+}
+
+.feat-link-2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #888B97;
+    text-decoration: none;
+}
+
+.buttons-2 {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-right: 100px;
+}
+
+.feat-button-3 {
+    background: #E0E3EB;
+    border: 0px;
+    padding: 16px 24px;
+    border-radius: 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 32px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.feat-button-4 {
+    background: #10B981;
+    border: 0px;
+    padding: 16px 24px;
+    border-radius: 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 32px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.houses {
+    display: flex;
+    align-items: start;
+    margin-top: 36px;
+    margin-left: 40px;
+}
+
+.house {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-right: 32px;
+}
+
+.house-info {
+    margin-top: 24px;
+}
+
+.house-name{
+    color: #0E1735;
+    margin: 0px;
+    font-size: 24px;
+    font-weight: 350;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+
+.house-price {
+    color: #3C4563;
+    margin: 0px;
+    margin-bottom: 24px;
+    font-size: 20px;
+    font-weight: 350;
+    line-height: 32px;
+}
+
+.people-comp {
+    display: flex;
+    align-items: center;
+}
+
+.people-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 16px;
+}
+
+.people-title {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 350;
+    line-height: 24px;
+    color: #0E1735;
+}
+
+.people-text {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #888B97;
+}
+
+/* Tour section css */
+
+.tour-section {
+    display: flex;
+    justify-content: start;
+    margin-top: 152px;
+    margin-left: 120px;
+}
+
+.tour-article {
+    min-width: 40vw;
+}
+
+.tour-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 0px;
+    margin-left: 40px;
+    margin-top: 16px;
+    width: 30vw;
+}
+
+.tour-text {
+    margin: 0px;
+    font-size: 16px;
+    opacity: 0.8;
+    font-weight: 600;
+    line-height: 28px;
+    color: #1B1C57;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.house-features {
+    display: flex;
+    align-items: center;
+}
+
+.first-col {
+    margin-right: 64px;
+}
+
+.house-feat {
+    margin: 0px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.feat-img {
+    margin-right: 16px;
+}
+
+.feat-text {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 350;
+    line-height: 20px;
+    color: #3C4563;
+}
+
+.phone {
+    margin-right: 12px;
+}
+
+.contact-comp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 16px;
+    border-top: 2px solid #F0F3FD;
+    margin-top: 16px;
+    padding-top: 32px;
+}
+
+.tour-aside{
+    padding-left: 48px;
+}
+
+.tour-images {
+    position: relative;
+    top: -128px;
+    left: 48px;
+}
+
+.tour-photo {
+    margin-right: 8px;
+}
+
+/* Review section css */
+
+.review-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-title-comp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #1B1C57;
+    margin:0px;
+    margin-top: 12px;
+}
+
+.new-line {
+    margin-bottom: 8px;
+}
+
+.review-img {
+    margin-top:40px;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 16px;
+    padding: 32px 32px;
+    width: 40vw;
+    position: relative;
+    top: -160px;
+    box-shadow: 0px 9px 32px 0px #595CDB0D;
+}
+
+.review-title {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #1B1C57;
+    margin-bottom: 16px;
+}
+
+.review-text {
+    margin: 0px;
+    color: #6e7082;
+    opacity: 0.6;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.review-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rating {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.star {
+    display: block;
+    height: 24px;
+    width: auto;
+    margin-right: 16px;
+}
+
+.rating-num {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #3C4563;
+}
+
+.dots {
+    margin: 0px;
+    position: relative;
+    top: -128px;
+    max-width: 100%;
+}
+
+/* More section css */
+
+.new-title-comp button {
+    margin-top: 24px;
+}
+
+.more-main {
+    display: flex;
+    margin-left: 120px;
+    margin-top: 48px;
+}
+
+.more-aside {
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-div {
+    display: flex;
+    margin-bottom: 48px;
+    width: 40vw;
+}
+
+.aside-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px;
+}
+
+.small-people-comp {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+.small-title {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #3C4563;
+    margin: 0px;
+    margin-left: 16px;
+}
+
+.aside-title {
+    font-size: 18px;
+    font-weight: 350;
+    line-height: 32px;
+    color: #1B1C57;
+    margin: 0px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.more-img {
+    max-width: 100%;
+    max-height: 100%;
+    overflow: cover;
+}
+
+.time-comp {
+    display: flex;
+    align-items: center;
+}
+
+.time-text {
+    font-size: 14px;
+    font-weight: 250;
+    line-height: 24px;
+    opacity: 0.5;
+    margin: 0px;
+    margin-left: 16px;
+}
+
+.more-article {
+    display: flex;
+    flex-direction: column;
+    margin-left: 64px;
+    margin-right: 120px;
+    
+}
+
+.more-img-1 {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 24px;
+}
+
+.article-title {
+    color: #1B1C57;
+    font-size: 24px;
+    font-weight: 350;
+    line-height: 32px;
+    margin: 0px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+/* Subscribe section css */
+
+.subscribe-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./public/subscribe.png');
+    width: 1200px;
+    height: 312px;
+    background-repeat: none;
+    margin-left: 120px;
+    margin-top: 64px;
+    margin-bottom: 120px;
+}
+
+.subscribe-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 33vw;
+}
+
+.subscribe-title {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #1B1C57;
+    margin: 0px;
+}
+
+.email-input {
+    padding: 4px 4px;
+    margin: 4px 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.email {
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.input {
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.input:focus {
+    outline: none;
+}
+
+/* Footer css */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-bottom: 120px;
+}
+
+.main-footer {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+}
+
+.sm-logo {
+    margin-top: 4px;
+    margin-right: 24px;
+}
+
+.links {
+    display: flex;
+}
+
+.side-footer{
+    display: flex;
+    flex-direction: column;
+    margin-right: 96px;
+    margin-top: 16px;
+}
+
+.footer-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0px;
+    margin-bottom: 24px;
+    color: #0E1735;
+}
+
+.footer-text {
+    font-size: 14px;
+    font-weight: 250;
+    line-height: 18px;
+    color: #888B97;
+    opacity: 0.9;
+    margin: 0px;
+    margin-bottom: 18px;
+}
